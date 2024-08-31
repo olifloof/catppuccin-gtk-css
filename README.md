@@ -1,14 +1,14 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for <a href="https://gtk.org">GTK CSS</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/template/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/template?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/catppuccin/template?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/gtk-css/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/gtk-css?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/gtk-css/issues"><img src="https://img.shields.io/github/issues/catppuccin/gtk-css?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/gtk-css/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/gtk-css?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -36,9 +36,10 @@
 
 ## Usage
 
+1. Install and set your gtk3 theme to adw-gtk3
 1. Download the flavor of your choice.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
-3. Select the downloaded flavor file.
+2. Place the flavor file into `.config/gtk-<version>/`.
+3. Append `@import url("./catppuccin-<flavor>-<accent>.css");` to `gtk.css`.
 
 <!-- The FAQ section is optional. Remove if needed.-->
 ## 🙋 FAQ
@@ -48,7 +49,8 @@
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [oli](https://github.com/olifloof)
+- [Stylix](https://github.com/danth/stylix)
 
 &nbsp;
 

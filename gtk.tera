@@ -1,0 +1,98 @@
+---
+accent: blue
+whiskers:
+  version: 2.4.0
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/{{ flavor.identifier }}/{{ accent }}.css"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+---
+@define-color accent_color {{ flavor.colors[accent].hex }};
+@define-color accent_bg_color {{ flavor.colors[accent].hex }};
+@define-color accent_fg_color {{ base.hex }};
+@define-color destructive_color {{ red.hex }};
+@define-color destructive_bg_color {{ red.hex }};
+@define-color destructive_fg_color {{ base.hex }};
+@define-color success_color {{ green.hex }};
+@define-color success_bg_color {{ green.hex }};
+@define-color success_fg_color {{ base.hex }};
+@define-color warning_color {{ mauve.hex }};
+@define-color warning_bg_color {{ mauve.hex }};
+@define-color warning_fg_color {{ base.hex }};
+@define-color error_color {{ red.hex }};
+@define-color error_bg_color {{ red.hex }};
+@define-color error_fg_color {{ base.hex }};
+@define-color window_bg_color {{ base.hex }};
+@define-color window_fg_color {{ text.hex }};
+@define-color view_bg_color {{ base.hex }};
+@define-color view_fg_color {{ text.hex }};
+@define-color headerbar_bg_color {{ mantle.hex }};
+@define-color headerbar_fg_color {{ text.hex }};
+@define-color headerbar_border_color {{ base | mod(opacity=0.7) | css_rgba }};
+@define-color headerbar_backdrop_color @window_bg_color;
+@define-color headerbar_shade_color {{ crust | mod(opacity=0.7) | css_rgba }};
+@define-color headerbar_darker_shade_color {{ crust | mod(opacity=0.7) | css_rgba }};
+@define-color sidebar_bg_color {{ mantle.hex }};
+@define-color sidebar_fg_color {{ text.hex }};
+@define-color sidebar_backdrop_color @window_bg_color;
+@define-color sidebar_shade_color {{ crust | mod(opacity=0.7) | css_rgba }};
+@define-color secondary_sidebar_bg_color @sidebar_bg_color;
+@define-color secondary_sidebar_fg_color @sidebar_fg_color;
+@define-color secondary_sidebar_backdrop_color @sidebar_backdrop_color;
+@define-color secondary_sidebar_shade_color @sidebar_shade_color;
+@define-color card_bg_color {{ mantle.hex }};
+@define-color card_fg_color {{ text.hex }};
+@define-color card_shade_color {{ crust | mod(opacity=0.7) | css_rgba }};
+@define-color dialog_bg_color {{ mantle.hex }};
+@define-color dialog_fg_color {{ text.hex }};
+@define-color popover_bg_color {{ mantle.hex }};
+@define-color popover_fg_color {{ text.hex }};
+@define-color popover_shade_color {{ crust | mod(opacity=0.7) | css_rgba }};
+@define-color shade_color {{ crust | mod(opacity=0.7) | css_rgba }};
+@define-color scrollbar_outline_color {{ surface0.hex }};
+@define-color blue_1 {{ blue.hex }};
+@define-color blue_2 {{ blue.hex }};
+@define-color blue_3 {{ blue.hex }};
+@define-color blue_4 {{ blue.hex }};
+@define-color blue_5 {{ blue.hex }};
+@define-color green_1 {{ green.hex }};
+@define-color green_2 {{ green.hex }};
+@define-color green_3 {{ green.hex }};
+@define-color green_4 {{ green.hex }};
+@define-color green_5 {{ green.hex }};
+@define-color yellow_1 {{ yellow.hex }};
+@define-color yellow_2 {{ yellow.hex }};
+@define-color yellow_3 {{ yellow.hex }};
+@define-color yellow_4 {{ yellow.hex }};
+@define-color yellow_5 {{ yellow.hex }};
+@define-color orange_1 {{ peach.hex }};
+@define-color orange_2 {{ peach.hex }};
+@define-color orange_3 {{ peach.hex }};
+@define-color orange_4 {{ peach.hex }};
+@define-color orange_5 {{ peach.hex }};
+@define-color red_1 {{ red.hex }};
+@define-color red_2 {{ red.hex }};
+@define-color red_3 {{ red.hex }};
+@define-color red_4 {{ red.hex }};
+@define-color red_5 {{ red.hex }};
+@define-color purple_1 {{ mauve.hex }};
+@define-color purple_2 {{ mauve.hex }};
+@define-color purple_3 {{ mauve.hex }};
+@define-color purple_4 {{ mauve.hex }};
+@define-color purple_5 {{ mauve.hex }};
+@define-color brown_1 {{ flamingo.hex }};
+@define-color brown_2 {{ flamingo.hex }};
+@define-color brown_3 {{ flamingo.hex }};
+@define-color brown_4 {{ flamingo.hex }};
+@define-color brown_5 {{ flamingo.hex }};
+@define-color light_1 {{ mantle.hex }};
+@define-color light_2 {{ mantle.hex }};
+@define-color light_3 {{ mantle.hex }};
+@define-color light_4 {{ mantle.hex }};
+@define-color light_5 {{ mantle.hex }};
+@define-color dark_1 {{ mantle.hex }};
+@define-color dark_2 {{ mantle.hex }};
+@define-color dark_3 {{ mantle.hex }};
+@define-color dark_4 {{ mantle.hex }};
+@define-color dark_5 {{ mantle.hex }};

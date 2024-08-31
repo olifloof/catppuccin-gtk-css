@@ -39,13 +39,7 @@
 1. Install and set your gtk3 theme to adw-gtk3
 1. Download the flavor of your choice.
 2. Place the flavor file into `.config/gtk-<version>/`.
-3. Append `@import url("./catppuccin-<flavor>-<accent>.css");` to `gtk.css`.
-
-<!-- The FAQ section is optional. Remove if needed.-->
-## 🙋 FAQ
-
-- Q: **_"How can I do X?"_**\
-  A: ...
+3. Append `@import url("./catppuccin-<flavor>-<accent>.css");` to `.config/gtk.css`.
 
 ## 💝 Thanks to
 
